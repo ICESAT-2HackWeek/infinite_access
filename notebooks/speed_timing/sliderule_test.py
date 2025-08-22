@@ -8,6 +8,22 @@ import numpy as np
 from datetime import datetime
 import os
 from matplotlib import pyplot as plt
+
+
+'''
+
+This script tests various configurations of sliderule for loading single granules and loading many granules from within a bounding box.
+
+Outputs text line-by-line to form a table, which should be redirected to an output file upon running
+
+
+'''
+
+
+
+
+
+
 ### One Granule
 def get_size(gdf):
     return gdf.memory_usage(deep=True).sum() / (1024**2)
