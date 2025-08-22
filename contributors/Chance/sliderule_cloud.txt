@@ -1,0 +1,7 @@
+Granules   Function   Method     Speed (s)  Size (MB)  Notes     
+1          sp         bbox       18.85      6.0247     gt2l      
+1          sp         granule    4.49       9.0402     gt2l      
+9          sp         bbox       3.49       5.9945     cycle 25  
+9          sp         granules   134.63     355.6644   cycle 25  
+9          sp         gran/bbox  3.15       5.9945     cycle 25  
+9          sp         bbox       8.25       5.9945     cycle 25  
