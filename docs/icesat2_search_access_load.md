@@ -19,7 +19,7 @@ _Transform_ - Includes reformatting, "reprojection", subsetting by time, space a
 [`harmony_py`](https://github.com/nasa/harmony-py): _transform_, _access_, A Python library for integrating with NASA's Harmony Services.  
 [`icepyx`](https://github.com/icesat2py/icepyx): _search_, _access_, _transform_, Python tools for obtaining and working with ICESat-2 data.  
 [`SlideRule`](https://github.com/SlideRuleEarth/sliderule): _search_, _access_, _transform_  
-[`xarray`](): _load_, _analysis_  
+[`xarray`](https://xarray.dev/): _load_, _analysis_, Python package for reading and working with N-dimensional labelled data arrays  
 
 [`pointCollection`](https://github.com/SmithB/pointCollection): _analysis_, Utilities for organizing and manipulating point data
 [`pointAdvection`](https://github.com/tsutterley/pointAdvection): _analysis_, Utilities for advecting point data for use in a Lagrangian reference frame
