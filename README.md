@@ -33,4 +33,5 @@ The best way to access ICESat-2 data depends on your desired use case. Below, we
 ## Reccommendations and Future Work
 - [ ] Ensure `earthaccess` has sufficient documentation  
 - [ ] Create documentation for `h5coro`  
-- [ ] Create issue in `xarray` to automatically remove `s3:` from url passed to open_dataset  
+- [ ] Create issue in `xarray` to automatically remove `s3:` from url passed to open_dataset
+- [ ] DataFrames with attributes (and also unit-aware) - maybe this is called a 1D xarray
