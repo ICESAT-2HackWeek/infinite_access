@@ -12,14 +12,18 @@ _Transform_ - Includes reformatting, "reprojection", subsetting by time, space a
 
 ## List of Featured Tools
 
-[`earthaccess`](): _search_, _access_
-[`geopandas`](): _analysis_
-[`h5coro`](): _access_, _load_
-[`h5py`](): _load_
-[`harmony_py`](): _transform_, _access_
-[`icepyx`](): _search_, _access_, _transform_
-[`SlideRule`](): _search_, _access_, _transform_
-[`xarray`](): _load_, _analysis_
+[`earthaccess`](https://github.com/nsidc/earthaccess): |_search_|, _access_, Search for, and download or stream NASA Earth science data with just a few lines of code  
+[`geopandas`](https://geopandas.org/en/stable/): _analysis_,  GeoPandas extends the datatypes used by pandas to make working with geospatial data in python easier  
+[`h5coro`](https://github.com/SlideRuleEarth/h5coro): _access_, _load_, A cloud optimized Python package for reading HDF5 data stored in S3  
+[`h5py`](https://github.com/h5py/h5py): _load_, A thin, pythonic wrapper around HDF5, which runs on Python 3 (3.10+)  
+[`harmony_py`](https://github.com/nasa/harmony-py): _transform_, _access_, A Python library for integrating with NASA's Harmony Services.  
+[`icepyx`](https://github.com/icesat2py/icepyx): _search_, _access_, _transform_, Python tools for obtaining and working with ICESat-2 data.  
+[`SlideRule`](https://github.com/SlideRuleEarth/sliderule): _search_, _access_, _transform_  
+[`xarray`](https://xarray.dev/): _load_, _analysis_, Python package for reading and working with N-dimensional labelled data arrays  
+
+[`pointCollection`](https://github.com/SmithB/pointCollection): _analysis_, Utilities for organizing and manipulating point data
+[`pointAdvection`](https://github.com/tsutterley/pointAdvection): _analysis_, Utilities for advecting point data for use in a Lagrangian reference frame
+
 
 ## Matrix of tools
 
@@ -49,5 +53,5 @@ _Transform_ - Includes reformatting, "reprojection", subsetting by time, space a
 ## References
 
 [^1]: [`h5coro`]() is a C library to access selected ICESat-2 products.  It also
-  requires lower-level coding.
+  requires lower-level coding.  `h5coro` is one of the "engines" available from `xarray`.
 [^2]: All ICESat-2 data are now hosted on NASA Earthdata Cloud
