@@ -29,3 +29,8 @@ The best way to access ICESat-2 data depends on your desired use case. Below, we
     url = results[0].data_links(access="direct")[0][3:] # Remove 's3:' from the beginning of the url
     ds = xr.open_dataset(url, engine='h5coro', group=<group>, credentials=creds)
     ```
+
+## Reccommendations and Future Work
+- [ ] Ensure `earthaccess` has sufficient documentation  
+- [ ] Create documentation for `h5coro`  
+- [ ] Create issue in `xarray` to automatically remove `s3:` from url passed to open_dataset  
