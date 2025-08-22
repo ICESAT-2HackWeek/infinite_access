@@ -53,5 +53,5 @@ _Transform_ - Includes reformatting, "reprojection", subsetting by time, space a
 ## References
 
 [^1]: [`h5coro`]() is a C library to access selected ICESat-2 products.  It also
-  requires lower-level coding.
+  requires lower-level coding.  `h5coro` is one of the "engines" available from `xarray`.
 [^2]: All ICESat-2 data are now hosted on NASA Earthdata Cloud
